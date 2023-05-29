@@ -1,3 +1,4 @@
+mod array_2d;
 mod binary_tree;
 mod hashmap;
 mod playground;
@@ -16,4 +17,5 @@ fn main() {
     queue::test();
     hashmap::test();
     set::test();
+    array_2d::test();
 }
